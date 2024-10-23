@@ -50,25 +50,30 @@ body {
   background-image: url(./img/Cats_Branches_Glance_587857_5120x341300.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 900px;
   border-radius: 14px;
   margin-top: 90px;
   /* position: relative;*/
 }
 .main .h1 {
-  text-align: end;
-  padding-right: 3%;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(217, 239, 222);
+  position: relative;
+  left: 50%;
+  padding: 1%;
   color: rgb(126, 173, 133);
   margin-bottom: 10px;
   text-shadow: -2px 2px 3px rgb(0, 0, 0);
   font-size: 45px;
+  border-radius: 14px;
 }
 .main .main_go {
   background-color: rgb(217, 239, 222);
   width: 35%;
   position: relative;
   top: 10px;
-  left: 788px;
+  left: 750px;
   border-radius: 14px;
   padding: 5px;
   margin-top: 10px;
