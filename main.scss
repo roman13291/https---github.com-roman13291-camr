@@ -61,7 +61,7 @@ body{
     height: 800px;
     border-radius: 14px;
     margin-top: 90px;
-    position: relative;
+   /* position: relative;*/
     .h1{
         text-align: end;
         padding-right: 3%;
@@ -73,9 +73,9 @@ body{
     .main_go{
         background-color: $c_f;
         width: 35%;
-        position: absolute;
-        top: 8%;
-        right: 14px;
+        position: relative;
+        top: 10px;
+        left: 788px;
         border-radius: 14px;
         padding: 5px;
         margin-top: 10px;
