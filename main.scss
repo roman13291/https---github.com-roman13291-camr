@@ -1,0 +1,110 @@
+$c_b: rgb(69, 107, 79);
+$c_f: rgb(217,239,222);
+$c_t: rgb(55, 71, 58);
+$c_te: rgb(126, 173, 133);
+$f_f: "Playfair Display", serif;
+
+body{
+    background-color: $c_b ;
+    font-family:$f_f ;
+}
+.healer{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: $c_f ;
+    border-radius: 0 0 14px 14px;
+    justify-content: space-between;
+
+    .header_logo{
+        margin: 10px;
+        padding: 8px;
+        background-image: url(../img/1781611.svg);
+        display: block;
+        width: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 80px;
+    }
+    .nav{
+        display: flex;
+        gap: 30px;
+        flex: content;
+        text-decoration: none;
+        justify-content: space-between;
+        max-width: 600px;
+        }
+        
+    
+    .nav-link{
+        display: block;
+        text-decoration: none;
+        font-size:35px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        font-weight: 600;
+        }
+    
+    .nav-tel{
+        display: block;
+        font-size: 35px;
+        margin-right: 25px;
+        text-decoration: none;
+        color: $c_t;
+        padding-top: 25px;
+    }
+}
+.main{
+    background-image: url(./img/Cats_Branches_Glance_587857_5120x341300.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    border-radius: 14px;
+    margin-top: 90px;
+    position: relative;
+    .h1{
+        text-align: end;
+        padding-right: 3%;
+        color: $c_te;
+        margin-bottom: 10px;
+        text-shadow: -2px 2px 3px rgb(0, 0, 0) ;
+        font-size: 45px;
+    }
+    .main_go{
+        background-color: $c_f;
+        width: 35%;
+        position: absolute;
+        top: 8%;
+        right: 14px;
+        border-radius: 14px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+.main_service{
+    background-image: url(./img/Cats_Branches_Glance_587857_5120x3413101.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    border-radius: 14px;
+    margin-top: 90px;
+    position: relative;
+    h2{
+        text-align: start;
+        padding-left: 3%;
+        color: $c_te;
+        margin-bottom: 10px;
+        text-shadow: -2px 2px 3px rgb(0, 0, 0) ;
+        font-size: 45px;
+    }
+    .main_to{
+        background-color: $c_f;
+        width: 35%;
+        position: absolute;
+        top: 8%;
+        left: 14px;
+        border-radius: 14px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
