@@ -2,20 +2,40 @@ $c_b: rgb(69, 107, 79);
 $c_f: rgb(217,239,222);
 $c_t: rgb(55, 71, 58);
 $c_te: rgb(126, 173, 133);
+$c_tt: rgb(41, 52, 42);
 $f_f: "Playfair Display", serif;
 
 body{
     background-color: $c_b ;
     font-family:$f_f ;
+    font-size: 17px;
+   
+    a{
+        text-decoration: none;
+        color: $c_t ;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 80px;
+        display: inline-block;
+        align-items: center;
+        padding-top: 30px;
+        margin: 20px;
+        transition-duration: 1s;
+    }
+    li{
+        list-style: none;
+    }
 }
-.healer{
+.header{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
     height: 120px;
     background-color: $c_f ;
     border-radius: 0 0 14px 14px;
-    justify-content: space-between;
-
+    column-gap: 10px;
+    font-size:30px;
     .header_logo{
         margin: 10px;
         padding: 8px;
@@ -26,42 +46,47 @@ body{
         background-size: contain;
         height: 80px;
     }
-    .nav{
+    .header-menu {
         display: flex;
-        gap: 30px;
+        column-gap: 80px;
+    }
+   .nav{
+        display: flex;
+        gap: 8%;
         flex: content;
         text-decoration: none;
         justify-content: space-between;
         max-width: 600px;
         }
-        
-    
-    .nav-link{
-        display: block;
-        text-decoration: none;
-        font-size:35px;
-        margin-bottom: 15px;
-        margin-top: 30px;
-        font-weight: 600;
+        .nav-link:hover{
+            background-color: rgb(144, 102, 48);
+            border-radius: 14px;
+            color: #dfc0c0;
+            
+            text-shadow: 2px 2px  #000;
         }
     
-    .nav-tel{
+    .header-menu-link{
         display: block;
-        font-size: 35px;
-        margin-right: 25px;
         text-decoration: none;
-        color: $c_t;
-        padding-top: 25px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-weight: 500;
+        
+        }
+   
+    .nav-tel{
+        margin-right: 15px;
     }
 }
 .main{
     background-image: url(./img/Cats_Branches_Glance_587857_5120x341300.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 950px;
     border-radius: 14px;
     margin-top: 90px;
-   /* position: relative;*/
+    position: relative;
     .h1{
         text-align: center;
         display: inline-block;
@@ -69,9 +94,9 @@ body{
         position: relative;
         left: 50%;
         padding: 1%;
-        color: $c_te;
+        color: $c_tt;
         margin-bottom: 10px;
-        text-shadow: -2px 2px 3px rgb(0, 0, 0) ;
+        text-shadow: -2px 2px 3px rgb(174, 121, 121) ;
         font-size: 45px;
         border-radius: 14px;
     }
@@ -97,19 +122,45 @@ body{
     h2{
         text-align: start;
         padding-left: 3%;
-        color: $c_te;
+        color: $c_tt;
         margin-bottom: 10px;
-        text-shadow: -2px 2px 3px rgb(0, 0, 0) ;
+        text-shadow: -2px 2px 3px rgb(174, 121, 121) ;
         font-size: 45px;
+        background-color: $c_f;
+        display: inline-block;
+        padding: 4px;
+        margin-left: 20px;
+        border-radius: 14px;
     }
     .main_to{
         background-color: $c_f;
         width: 35%;
-        position: absolute;
+        position: relative;
         top: 8%;
         left: 14px;
         border-radius: 14px;
         padding: 5px;
         margin-top: 10px;
+    }
+}
+.price{
+    background-image: url(./img/Cats_Branches_Glance_Whiskers_Ginger_color_588814_5601x3734.jpg);
+    h2{
+        margin-left: 140px;
+       
+    }
+}
+
+.deadlines{
+    background-image:url(./img/Cats_Branches_Glance_587857_5120x3413.jpg);
+    .main_to{
+       left: 750px;
+    }
+    h2  {
+       
+        margin-left: 950px;
+        text-align: center;
+           
+        left: 750px;
     }
 }
