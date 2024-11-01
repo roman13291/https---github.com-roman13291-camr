@@ -1,3 +1,3 @@
-if ('5'== 5){
-    console.log('ложа')
-} else console.log('лож')
+if ('5'=== 5){
+    console.log('перец')
+} else console.log('огурок')
