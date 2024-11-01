@@ -31,6 +31,9 @@ body {
   body .header .header-menu {
     display: none;
   }
+  body .nav-tel {
+    font-size: 35px;
+  }
 }
 body a {
   text-decoration: none;
