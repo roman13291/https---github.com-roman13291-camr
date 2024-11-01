@@ -3,6 +3,18 @@ body {
   font-family: "Playfair Display", serif;
   font-size: 17px;
 }
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+  body a {
+    font-size: 20px;
+  }
+  body .header .header-menu {
+    -moz-column-gap: 35px;
+         column-gap: 35px;
+  }
+}
 body a {
   text-decoration: none;
   color: rgb(55, 71, 58);

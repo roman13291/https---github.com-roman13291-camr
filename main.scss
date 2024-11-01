@@ -9,6 +9,17 @@ body{
     background-color: $c_b ;
     font-family:$f_f ;
     font-size: 17px;
+    @media (max-width: 1200px){
+        font-size: 14px;
+        a{
+            font-size: 20px;
+        }
+        .header{
+            .header-menu{
+                column-gap: 35px;
+            }
+        }
+      }
    
     a{
         text-decoration: none;
