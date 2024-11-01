@@ -11,6 +11,7 @@ body {
     font-size: 20px;
   }
   body .header {
+    display: none;
     max-width: 1100px;
   }
   body .header .header-menu {
@@ -26,7 +27,6 @@ body {
     font-size: 15px;
   }
   body .header {
-    display: none;
     max-width: 790px;
   }
   body .header .header-menu {

@@ -15,6 +15,7 @@ body{
             font-size: 20px;
         }
         .header{
+            display: none;
             max-width: 1100px;
             .header-menu{
                 column-gap: 35px;
@@ -27,7 +28,7 @@ body{
             font-size: 15px;
         }
         .header{
-            display: none;
+           
             max-width: 790px;
             .header-menu{
                 display: none;
