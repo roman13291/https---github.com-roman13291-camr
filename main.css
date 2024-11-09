@@ -11,15 +11,14 @@ body {
     font-size: 20px;
   }
   body .header {
-    display: none;
-    max-width: 1100px;
+    max-width: 100%;
   }
   body .header .header-menu {
     -moz-column-gap: 35px;
          column-gap: 35px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   body {
     font-size: 14px;
   }
@@ -34,6 +33,34 @@ body {
   }
   body .nav-tel {
     font-size: 35px;
+  }
+  body .main {
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body .main .h1 {
+    left: 10px;
+    display: inline-block;
+    background-color: rgb(217, 239, 222);
+    padding: 1%;
+    color: rgb(41, 52, 42);
+    margin-bottom: 10px;
+    text-shadow: -2px 2px 3px rgb(174, 121, 121);
+    font-size: 45px;
+    border-radius: 14px;
+    text-align: center;
+  }
+  body .main .main_go {
+    background-color: rgb(217, 239, 222);
+    width: 35%;
+    font-size: 13px;
+    top: 10px;
+    left: 50px;
+    border-radius: 14px;
+    padding: 5px;
+    margin-top: 10px;
   }
 }
 body a {
@@ -59,7 +86,8 @@ body li {
   align-items: center;
   height: 120px;
   background-color: rgb(217, 239, 222);
-  border-radius: 0 0 14px 14px;
+  border-radius: 14px;
+  margin: 4px;
   -moz-column-gap: 10px;
        column-gap: 10px;
   font-size: 30px;
@@ -110,7 +138,7 @@ body li {
   background-repeat: no-repeat;
   height: 950px;
   border-radius: 14px;
-  margin-top: 90px;
+  margin: 40px 4px;
   position: relative;
 }
 .main .h1 {
@@ -143,7 +171,7 @@ body li {
   background-repeat: no-repeat;
   height: 800px;
   border-radius: 14px;
-  margin-top: 90px;
+  margin: 40px 4px;
   position: relative;
 }
 .main_service h2 {
